@@ -1,0 +1,47 @@
+
+body{
+    background-color: var(--main-color);
+    overflow-x: hidden;
+   box-sizing: border-box;
+}
+
+
+h5{
+    color: #808080;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 320px;
+}
+h4{
+    text-align: center;
+}
+
+
+.amounts{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.input{
+    margin-right: 7px;
+}
+.amounts select{
+border-radius: 5px;
+   background-color: #1F2261;
+   color: aliceblue;
+   height: 31px;
+
+}
+.amounts input{
+    width: 141px;
+    height: 32px;
+    border: 2px solid #EFEFEF ;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #EFEFEF;
+    text-align: center;
+}
